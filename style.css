@@ -1,0 +1,481 @@
+    /**********************************General Styles***************************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+span {
+    color: #df2e2e;
+}
+
+.navBar {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.navBar nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: auto 15px;
+    
+}
+
+.navBar nav .typeLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar .typeLogo a {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navbar .typeLinks {
+    display: flex;
+}
+
+.navBar .typeLinks a {
+    color: #df2e2e;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    margin: auto 20px;
+}
+
+.navBar .typeLinks a:hover {
+    transition: color .4s;
+    color: white;
+}
+
+.navBar .typeHome a {
+    background-color: #df2e2e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 6px 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.navBar .typeHome a:hover {
+    color: #df2e2e;
+    background-color: white;
+}
+
+main {
+    height: 100vh;
+    box-sizing: border-box;  
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px auto;
+    color: white;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: 300;
+}
+
+h2,h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    border-top: 5px solid black;
+    height: 250px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer p {
+    color: #a02489;
+    font-size: 25px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.icons a {
+    margin: 10px 5px;
+    padding: 15px;
+    color: white;
+    background-color: #df2e2e;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.icons a:hover {
+    color: #df2e2e;
+    background-color: white;
+    border: 2px solid #df2e2e;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #df2e2e;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #fff;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .tooltip .tooltiptext img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  
+
+/********************************styles for index.html**********************************/
+.bannerFilm1 {
+    max-width: 90%;
+    height: 250px;
+    margin:0 auto;
+    background-image: url("shawsang-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+.bannerFilm1 h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bannerFilm1 p{
+    color: black;
+    text-align: center;
+    font-family: "roboto",arial;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.bannerFilm1 a {
+    position: relative;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0 auto;
+    padding: 5px 15px;
+    width: 40px;
+    background-color: #df2e2e;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 1s;
+}
+
+.bannerFilm1 a:hover {
+    color: #df2e2e;
+    background-color: white;
+    border: 2px solid #df2e2e;
+}
+/********************************styles for rebricek.html**********************************/
+table {
+    width: 90%;
+    margin:20px auto;
+}
+
+th {
+    color: white;
+    background-color: #df2e2e;
+    font-weight: bold;
+}
+
+td {
+    height: auto;
+    height: 10px;
+    color: #a02489;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.secondRow td {
+    background-color: #a02489;
+    color: black;
+}
+
+.secondRow .filmDetails {
+    color: black;
+  }
+
+.najlepsiFilm {
+    background-color: #101010;
+    padding: 20px;
+}
+
+.najlepsiFilm h1 {
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.najlepsiFilm p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a02489;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+.najlepsiFilm img {
+    display: block;
+    margin:0px auto;
+    height: 250px;
+    border: 4px solid #df2e2e;
+    border-radius: 10%;
+}
+
+.oblubeneFilmy {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.oblubeneFilmy p {
+    color: white;
+    width: 20%;
+}
+
+.oblubeneFilmy p::first-letter {
+    color: #a02489;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+/********************************styles for filmDetails.html**********************************/
+
+h2 {
+    text-align: center;
+    color: #df2e2e;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #a02489;
+    text-align: center;
+    padding: 10px;
+}
+
+.filmDetail-text {
+    text-align: center;
+    color: #a02489;
+    margin-bottom: 15px;
+}
+
+.moreDetails {
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    border: 2px solid #df2e2e;
+}
+
+.moreDetails ul li {
+    list-style-type: none;
+    color: purple;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.herci {
+    display: flex;
+    justify-content: center;
+}
+
+.herci li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.herci li i {
+    font-size: 20px;
+    color: #df2e2e;
+}
+
+.herci .secondActor {
+    color: #a02489;
+}
+
+.filmDetails {
+    height: auto;
+    height: 10px;
+    color: #a02489;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.content iframe {
+    margin: 10px auto;
+    padding-bottom: 50px;
+}
+
+.content svg {
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+
+/********************************styles for add-review.html**********************************/
+
+form {
+    box-sizing: border-box;
+    max-width: 50%;
+    margin: 10px auto;
+    border: 2px solid #a02489;
+    padding:3px 20px;
+    max-height: 600px;
+}
+form h1 {
+    margin-bottom: 0px;
+}
+
+.radioTypes input {
+    margin: 0;
+}
+
+input {
+    width: 100%;
+    background-color: white;
+    border:2px solid #df2e2e;
+    color: #a02489;
+    padding-left: 15px;
+    border-radius: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input:focus {
+    border: none;
+    border-radius: none;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+}
+
+label {
+    color: white;
+}
+
+#submit {
+    padding: auto;
+    margin-bottom: 0;
+    border: none;
+    background-color: #df2e2e;
+    color: white;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.logo{
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.square1 {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #a02489;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.square2 {
+    width: 25px;
+    height: 25px;
+    border: 3px solid red;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.square3 {
+    width: 25px;
+    height: 25px;
+    border: 3px solid blue;
+    position: absolute;
+    left: 10%;
+    bottom:10%;
+}
+
+.square4 {
+    width: 25px;
+    height: 25px;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
